@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting the reports and Test is getting Ready]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser and getting Application Ready]]>
+    </line>
+    <line>
+      <![CDATA[Application is Up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Report generated]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19866" started-at="2020-09-05T18:31:24 IST" finished-at="2020-09-05T18:31:44 IST">
+    <groups>
+    </groups>
+    <test name="calibit Automation" duration-ms="19866" started-at="2020-09-05T18:31:24 IST" finished-at="2020-09-05T18:31:44 IST">
+      <class name="com.calibit.testcases.LoginTestCallibit">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.calibit.testcases.LoginTestCallibit@a7e666]" name="setUpSuite" is-config="true" duration-ms="783" started-at="2020-09-05T18:31:23 IST" finished-at="2020-09-05T18:31:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting the reports and Test is getting Ready]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup_browser()[pri:0, instance:com.calibit.testcases.LoginTestCallibit@a7e666]" name="setup_browser" is-config="true" duration-ms="13361" started-at="2020-09-05T18:31:24 IST" finished-at="2020-09-05T18:31:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser and getting Application Ready]]>
+            </line>
+            <line>
+              <![CDATA[Application is Up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup_browser -->
+        <test-method status="PASS" signature="login_CaliBitApp()[pri:0, instance:com.calibit.testcases.LoginTestCallibit@a7e666]" name="login_CaliBitApp" duration-ms="3480" started-at="2020-09-05T18:31:38 IST" finished-at="2020-09-05T18:31:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_CaliBitApp -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.calibit.testcases.LoginTestCallibit@a7e666]" name="teardownMethod" is-config="true" duration-ms="649" started-at="2020-09-05T18:31:41 IST" finished-at="2020-09-05T18:31:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_CaliBitApp status=SUCCESS method=LoginTestCallibit.login_CaliBitApp()[pri:0, instance:com.calibit.testcases.LoginTestCallibit@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Report generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.calibit.testcases.LoginTestCallibit@a7e666]" name="teardown" is-config="true" duration-ms="2333" started-at="2020-09-05T18:31:42 IST" finished-at="2020-09-05T18:31:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.calibit.testcases.LoginTestCallibit -->
+    </test> <!-- calibit Automation -->
+  </suite> <!-- Suite -->
+</testng-results>
